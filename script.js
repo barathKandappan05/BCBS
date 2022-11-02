@@ -13,7 +13,7 @@ function sendMessage() {
      */
 
     var receiverElem = document.getElementById('receiver').contentWindow;
-    receiverElem.postMessage({actionType: 'ameliaConversationAttributes', actionData: {test: 'testing some stuff'}}, "https://bcbsma.demo.amelia.com/Amelia/ui/BSBSMA/chat");
+    receiverElem.postMessage({actionType: 'ameliaConversationAttributes', actionData: {test: 'testing some stuff'}}, "https://barathkandappan05.github.io");
 }
 
 async function grabData() {
